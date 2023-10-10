@@ -1,0 +1,13 @@
+git status - 
+
+git pull - 
+
+git add <arquivos> - 
+
+git commit <comando utilizando simbolo de menos (-)> -
+
+git push - 
+
+git branch - 
+
+git checkout - 
