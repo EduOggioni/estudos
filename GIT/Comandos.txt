@@ -1,13 +1,14 @@
-git status - 
+git status - Serve para mostrar o estado atual da branch na qual se encontra o projeto.
 
-git pull - 
+git pull - Serve para pegar as informações que existem na branch (ramo) na núvem (internet), assim como outras branchs que só existem na núvem.
 
-git add <arquivos> - 
+git add <arquivos> - Usado para adicionar ao pacote que será enviado a núvem as mudanças feitas, recomendado usar ponto ( . ) no lugar do nome dos arquivos para facilitar
 
-git commit <comando utilizando simbolo de menos (-)> -
+git commit <comando utilizando simbolo de menos (-)> - Utilizado para dar descrição e avisar que o pacote está fechado, para ser enviado a núvem
+    O símbolo de menos ( - ) é seguido da letra m para indicar a mensagem DESCRITIVA do pacote, sendo assim fica `git commit -m "mensagem"`
 
-git push - 
+git push - Uma vez com um pacote de mudanças fechado pelo COMMIT, o push é utilizado para ENVIAR essas mudanças para a núvem
 
-git branch - 
+git branch - Utilizado para criar uma nova branch (ramo), ela só existirá local e você não irá utiliza-la imediatamente após cria-la, para adentrar é necessário usar comando "git checkout"
 
-git checkout - 
+git checkout - Usado para entrar numa branch que existe em seu local. Essas branchs existirão quando tu cria-las por "git branch" ou quando recebe-las por "git pull"
