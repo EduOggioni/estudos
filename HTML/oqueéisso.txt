@@ -18,6 +18,7 @@ As mais comuns são:
 <h1></h1> (indo até h6) - Usado para definir cabeçalho o H é de headings
 <img></img> - Para demarcar que é uma imagem
 <input></input> - Usado para fazer um campo em que o usuário possa preencher com texto 
+<nav></nav> - Conjunto de tags A, ficam no geral em uma tag NAV
 <p></p> - Utilizado para fazer parágrafos de texto
 <select> - Usado para iniciar um bloco de opções
     <option></option> - a opção singular de um bloco de opções
@@ -40,3 +41,7 @@ Toda TAG que abre <tag> tem que fechar </tag> e se fecha repetindo a TAG com um 
 Também é possível encerrar quase todas as tag usando um contra-barra após o nome da tag, <tag />
 Para determinar quais TAGs fecham com a contra-barra junta ou separada, é saber se ela teria algo
     entre suas tags para ser mostrado, <p>Texto a ser mostrado</p> ou <img src="caminho da imagem" />
+
+Existem muito mais coisas e é muito mais complexo do que somente isto, mas tudo isto sairia da nossa
+    necessidade para aprendizado de JavaScript, nossa ideia é aprender a programar e não a fazer site
+    com aparência bonitinha e por no google!
