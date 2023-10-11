@@ -1,0 +1,42 @@
+O que caralho é HTML?
+R - HTML é HyperText Markup Language, resumindo, Linguagem de Marcação de Hiper Texto...
+    Isto mesmo, é só uma forma de marcar algo e isto vira um treco.
+
+Resumindo tudo no HTML é uma marcação para simbolizar algo, um exemplo é o que seria um botão, e não o botão da bunda!
+<button>Butão da não-bunda</button>
+
+E desta forma será TUDO... TUDO NO HTML, tu só precisa saber quais são as marcações, também chamadas de TAGS.
+As mais comuns são:
+
+<!-- texto comentário que não aparecerá pro usuário --> - Utilizado para comentários no HTML, não para usuário
+<a></a> - Usando para especificar um link, para poder dizer qual é o link precisamos usar um href="link", ex: <a href="google.com"></a>
+<abbr></abbr> - Usando para abreviação, sérião, ninguém usa isto
+<b></b> - Texto em negrito
+<br></br> - Gera um pulo de linha no HTML
+<button></button> - Usado para fazer um botão clicável
+<div></div> - Demarca uma separação no html que terá forma, o div é de division
+<h1></h1> (indo até h6) - Usado para definir cabeçalho o H é de headings
+<img></img> - Para demarcar que é uma imagem
+<input></input> - Usado para fazer um campo em que o usuário possa preencher com texto 
+<p></p> - Utilizado para fazer parágrafos de texto
+<select> - Usado para iniciar um bloco de opções
+    <option></option> - a opção singular de um bloco de opções
+</select>
+<span></span> - Usado para determinar uma sessão do HTML sem forma determinada
+<table> - Indica que é uma tabela com seus elementos
+    <th> - Usado para dizer que é o cabeçalho da tabela
+    <tr> - Usado para dizer que é uma linha da tabela
+        <td></td> - Usado para dizer que é uma célula da tabela
+    </tr>
+    </th>
+    <tr> - ver acima linha 28
+        <td></td> - ver acima linha 29
+    </tr> - Vale ressaltar que não existe um <tc> para determinar colunas da tabela,
+</table> - a quantidade de colunas é determinada pela quantidade de células de uma linha!
+<ol></ol> ou <ul></ul> - Usado para linha Ordenada e linha Não-Ordenada (Ordened List e Unordened List)
+<video></video> - Para demarcar um vídeo, ex: <video src="xvideos.com/v=12345"></video>
+
+Toda TAG que abre <tag> tem que fechar </tag> e se fecha repetindo a TAG com um contra-barra ( / )
+Também é possível encerrar quase todas as tag usando um contra-barra após o nome da tag, <tag />
+Para determinar quais TAGs fecham com a contra-barra junta ou separada, é saber se ela teria algo
+    entre suas tags para ser mostrado, <p>Texto a ser mostrado</p> ou <img src="caminho da imagem" />
