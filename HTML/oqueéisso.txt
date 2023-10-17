@@ -7,6 +7,9 @@ Resumindo tudo no HTML é uma marcação para simbolizar algo, um exemplo é o q
 
 E desta forma será TUDO... TUDO NO HTML, tu só precisa saber quais são as marcações, também chamadas de TAGS.
 As mais comuns são:
+<html></html> - Tudo vai estar dentro disto
+<header></header> - Dentro do <html> e nele terá somente coisas de informações que não são mostradas diretamente ao usuário, infos usadas mais por ferramentas de busca
+<body></body> - Corpo da parada, tudo que vai ser nosso html de verdade é aqui!!!
 
 <!-- texto comentário que não aparecerá pro usuário --> - Utilizado para comentários no HTML, não para usuário
 <a></a> - Usando para especificar um link, para poder dizer qual é o link precisamos usar um href="link", ex: <a href="google.com"></a>
