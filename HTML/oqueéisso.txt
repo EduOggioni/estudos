@@ -29,9 +29,9 @@ As mais comuns são:
 <span></span> - Usado para determinar uma sessão do HTML sem forma determinada
 * <table> - Indica que é uma tabela com seus elementos
     <th> - Usado para dizer que é o cabeçalho da tabela
-    <tr> - Usado para dizer que é uma linha da tabela
-        <td></td> - Usado para dizer que é uma célula da tabela
-    </tr>
+        <tr> - Usado para dizer que é uma linha da tabela
+            <td></td> - Usado para dizer que é uma célula da tabela
+        </tr>
     </th>
     <tr> - ver acima linha 28
         <td></td> - ver acima linha 29
