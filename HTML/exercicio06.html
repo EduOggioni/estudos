@@ -1,3 +1,17 @@
 <!-- Fazer dois inputs, cada um para receber um valor numérico-->
 <!-- Após isto, ter 4 botões, um de + outro de -, um de * e outro de / -->
 <!-- São as 4 operações básicas matemáticas, o onclick será algo tipo alert(num1 + num2) -->
+<html>
+    <p> Numero 1: <input id="Num1"/></p>
+    <p> Numero 2: <input id="Num2"/></p>
+    <button onclick="alert(Number(Num1.value)+Number(Num2.value));"> + </button>
+    <button onclick="alert(Number(Num1.value)-Number(Num2.value));"> - </button>
+    <button onclick="alert(Number(Num1.value)*Number(Num2.value));"> * </button>
+    <button onclick="alert(Number(Num1.value)/Number(Num2.value));"> / </button>
+
+    <script>
+        let Num1 = document.getElementById("Num1");
+        let Num2 = document.getElementById("Num2");
+    </script>
+    
+</html>
