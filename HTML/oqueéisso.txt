@@ -33,8 +33,8 @@ As mais comuns são:
             <td></td> - Usado para dizer que é uma célula da tabela
         </tr>
     </th>
-    <tr> - ver acima linha 28
-        <td></td> - ver acima linha 29
+    <tr> - ver acima linha 32
+        <td></td> - ver acima linha 33
     </tr> - Vale ressaltar que não existe um <tc> para determinar colunas da tabela,
 </table> - a quantidade de colunas é determinada pela quantidade de células de uma linha!
 * <ol></ol> ou <ul></ul> - Usado para linha Ordenada e linha Não-Ordenada (Ordened List e Unordened List)
