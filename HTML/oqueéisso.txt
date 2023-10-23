@@ -16,7 +16,7 @@ As mais comuns são:
 <abbr></abbr> - Usando para abreviação, sérião, ninguém usa isto
 * <b></b> - Texto em negrito
 <br></br> - Gera um pulo de linha no HTML
-<button></button> - Usado para fazer um botão clicável
+<button></button> - Usado para fazer um botão clicável, é possível usar o onclick="" para executar um comando JS simples, ex: <button onclick="alert('AAAA')">CLICK</button>
 * <div></div> - Demarca uma separação no html que terá forma, o div é de division
 * <h1></h1> (indo até h6) - Usado para definir cabeçalho o H é de headings
 * <img></img> - Para demarcar que é uma imagem
