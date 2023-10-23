@@ -6,16 +6,18 @@
         <div>
             <p>Nome, o id é único, class é para vários: <input id="nomeId1" class="nomeClass"/></p>
             <p>Nome também, o id tem que mudar o dar ruim: <input id="nomeId2" class="nomeClass"/></p>
-            <p>Todas as tags do html, para serem manipuladas, precisam de alguma forma de identificação.</p>
+            <p id="textoMutavel">Todas as tags do html, para serem manipuladas, precisam de alguma forma de identificação.</p>
             <p>Ids são usados para identificação única, logo duas tags HTML não podem ter o mesmo ID.</p>
             <p>Já classes são para determinar algo que pode ser usado para identificação de múltiplas tags HTML.</p>
             <button onclick="alert(inputId);">ID</button>
             <button onclick="alert(inputsClass);">Classes</button>
+            <button onclick="alert(textoId)">Texto</button>
             <p>Os botões tem ações de CLICK, cada um delas vai gerar um alert com informação que foram adquiridas pelo nosso script JS</p>
             <p>sendo que nosso script vai pegar na inputId, um único elemento HTML, enquanto o inputsClass terá uma coleção de elementos, pois há mais de um.</p>
         </div>
         <script>
             const inputId = document.getElementById('nomeId1');
+            const textoId = document.getElementById('textoMutavel');
             const inputsClass = document.getElementsByClassName('nomeClass');
         </script>
     </body>
