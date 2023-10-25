@@ -14,7 +14,7 @@
     Object são variáveis que tem uma leve semelhança com o array, mas invés de índices, falamos que tem propriedades mas é
     bem parecido com índices. o que complica mais em relação a Object é que sua construção usa CHAVES { } e essas chaves não
     são escopos em si, e as propriedades do object devem ter nome, não são igual as do array que por padrão são
-    numéricas e autoincrementais.
+    numéricas e autoincrementais. Não é possível chamar a propriedade de um objeto sem chamar o objeto em si.
     const exemploObjeto = {
         cor: "rosa",
         tamanho: "médio",
