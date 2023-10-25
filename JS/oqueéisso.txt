@@ -1,0 +1,18 @@
+O que cacete é javascript?
+
+Um maluco muito fumado usaria algo java mas para HTML, usando códigos curto que foram chamados de SCRIPT.
+Ai por isto do JAVA-SCRIPT.
+
+Graças a nosso bom Deus, JavaScript não é nem um pouco parecido com Java. Só seu início que foi baseado, tanto que poucos meses após já
+não estavam similares.
+
+Qual a vantagem do Javascript, basicamente ele é leve, portátil por ser usado em navegadores ou nos servidores por nodeJS, e com uma
+ampla comunidade de apoio e incremento da linguagem.
+
+Tem sua declaração de variáveis, funções e etc, de forma caótica mas um cuidado adicional torna tudo mais de acordo.
+
+A quantidade de possibilidade e utilidades internas do Javascript vão depender de SEU AMBIENTE.
+O que isto quer dizer? Se estiver num navegador, o js terá variáveis globais como "document" que é referente a página web, já no nodeJS
+há variáveis glocais como "process" que é referente ao servidor em execução.
+
+Diferente do HTML não há como ficar nomeando todas as possíveis coisas comuns, pois vou perder muitas horas digitando e lembrando, então vamos por tópicos.

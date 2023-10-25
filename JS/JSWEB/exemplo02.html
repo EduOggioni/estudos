@@ -1,0 +1,38 @@
+<p>Aqui veremos os tipos básicos de variáveis e o que elas significam</p>
+<p>Não adianta muito olhar no navegador, mas ok!</p>
+
+<p>VAR é de variável, na época das cavernas o JS usava assim, as vezes tu ainda vê, mas variáveis criadas por VAR são muito amplas e tem chance de dar problema</p>
+<p>CONST é de constante, são usadas para variáveis que não irão mudar, e é feito para não ser alterado, então se tentarem mudar tem que reclamar</p>
+<p>LET é de sei lá... vou procurar aqui... Foda-se, uma galera de matemática pegou isto do SCALA e foi, é tipo o CONST, mas podendo alterar</p>
+<p>Qual a diferença VAR vs LET vs CONST? Var é amplo demais, então serve em todo o arquivo em que estiver. Const e Let é preso ao ESCOPO</p>
+<p>O que é ESCOPO? É um pedaço delimitado do código por chaves { }, if usa, classe usa, função usa e por ai vai, tem { }, é um ESCOPO</p>
+<script>
+    var name = "Edu";
+    let nome = "Dy";
+    const noname = "";
+
+    //Posso mudar a variável name e nome, mas não a noname.
+    if(name == "Edu"){
+        const eu = true;
+        var tu = true;
+        // Eu posso criar variáveis DENTRO de um escopo
+    }
+
+    if(tu){
+        alert(eu);
+        // A variável "tu" é um var, ela existe mesmo fora do seu escopo quando criada.
+        // A variável "eu" é um const, ela só existe em seu ESCOPO, logo neste if ela não existe e será INDEFINIDA (undefined)
+    }
+
+    //Isto ocorre por que var é muito AMPLO, a chance de dar ruim é grande, evitasse VAR igual se evita xingar traficante. RISCO DE VIDA!!!
+
+    if(nome == "Dy"){
+        let eu = true;
+        if(name == "Edu"){
+            eu = "TRUE MESMO";
+        }
+        // A variável "eu" na linha 32 está sendo reatribuia um valor, ela já existe de sua criação na linha 30.
+        // A variável "eu" vai existir mesmo no escopo que inicia na linha 31, pois esse escopo está dentro do escopo da linha 29.
+        // Resumindo, uma variável cria em um escopo, existe até o fim de seu escopo, se houve um segundo escopo dentro do primeiro, ela existirá neste segundo escopo
+    }
+</script>
