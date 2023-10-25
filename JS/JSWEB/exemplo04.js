@@ -7,12 +7,13 @@
 
     Array são variáveis que tem índices, em uma visualização simples dela, é como um colar de contas, e cada conta guarda um
     valor, o array seria o colar em si. Array são escrito entre conchetes [ ]. Seus índices são numéricos por PADRÃO, mas não
-    é obrigatório ser. Em caso de incrementado, segue uma escala numérica iniciando em 0 e crescente.
+    é obrigatório ser. Em caso de incrementado, segue uma escala numérica iniciando em 0 e crescente. Futuramente veremos como
+    mexer nos índices.
     const exemploArray = [1, 2, 3, 4, 5];
 
     Object são variáveis que tem uma leve semelhança com o array, mas invés de índices, falamos que tem propriedades mas é
     bem parecido com índices. o que complica mais em relação a Object é que sua construção usa CHAVES { } e essas chaves não
-    são blocos de informações em si, e as propriedades do object devem ter nome, não são igual as do array que por padrão são
+    são escopos em si, e as propriedades do object devem ter nome, não são igual as do array que por padrão são
     numéricas e autoincrementais.
     const exemploObjeto = {
         cor: "rosa",
