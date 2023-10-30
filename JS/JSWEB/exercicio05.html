@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>LET'S WHIP!!!</title>
+    </head>
+    <body>
+        <p>Usando no script o document.getElementByID('id do item')</p>
+        <p>Faça uma função e utilize-a no onclick do botão abaixo para nossa calculadora</p>
+        <p>Valor: <input id="calcVal" placeholder="Digite um número aqui"/></p>
+        <table>
+            <tr>
+                <td><button onclick=""></button>+</td>
+                <td><button onclick=""></button>-</td>
+            </tr>
+            <tr>
+                <td><button onclick=""></button>*</td>
+                <td><button onclick=""></button>/</td>
+            </tr>
+            <tr>
+                <td><button onclick=""></button>Resultado</td>
+                <td><button onclick="limpar()"></button>limpar</td>
+            </tr>
+        </table>
+        <script>
+            let num1, num2, operacao, total;
+            void function limpar(){
+                num1 = undefined; num2 = undefined; operacao = undefined; total = undefined;
+                document.getElementById('calcVal').value = undefined;
+            }
+        </script>
+    </body>
+</html>
