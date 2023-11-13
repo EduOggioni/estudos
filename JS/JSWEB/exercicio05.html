@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>LET'S WHIP!!!</title>
+       
     </head>
     <body>
         <p>Usando no script o document.getElementByID('id do item')</p>
@@ -8,24 +9,69 @@
         <p>Valor: <input id="calcVal" placeholder="Digite um número aqui"/></p>
         <table>
             <tr>
-                <td><button onclick=""></button>+</td>
-                <td><button onclick=""></button>-</td>
+                <td><button onclick="somar()">+</button></td>
+                <td><button onclick="subt()">-</button></td>
             </tr>
             <tr>
-                <td><button onclick=""></button>*</td>
-                <td><button onclick=""></button>/</td>
+                <td><button onclick="multi()">*</button></td>
+                <td><button onclick="divi()">/</button></td>
             </tr>
             <tr>
-                <td><button onclick=""></button>Resultado</td>
-                <td><button onclick="limpar()"></button>limpar</td>
+                <td><button onclick="resultado()">Resultado</button></td>
+                <td><button onclick="limpar()">Limpar</button></td>
             </tr>
         </table>
         <script>
             let num1, num2, operacao, total;
-            void function limpar(){
-                num1 = undefined; num2 = undefined; operacao = undefined; total = undefined;
-                document.getElementById('calcVal').value = undefined;
+             function limpar(){
+                num1 = ""; num2 = ""; operacao = ""; total = "";
+                document.getElementById('calcVal').value = "";
+            };
+
+            function somar(){
+                num1=document.getElementById('calcVal').value;
+                document.getElementById('calcVal').value = "";
+                operacao = "+";
             }
+
+            function subt(){
+                num1=document.getElementById('calcVal').value;
+                document.getElementById('calcVal').value = "";
+                operacao = "-";
+            }
+
+            function multi(){
+                num1=document.getElementById('calcVal').value;
+                document.getElementById('calcVal').value = "";
+                operacao = "*";
+            }
+
+            function divi(){
+                num1=document.getElementById('calcVal').value;
+                document.getElementById('calcVal').value = "";
+                operacao = "/";
+            }
+
+            function resultado(){
+                num2= document.getElementById("calcVal").value;
+                num1= Number(num1);
+                num2= Number(num2);
+                if (operacao == "+") {
+                    total = num1 + num2;
+                }
+                if (operacao == "-") {
+                    total = num1 - num2;
+                }
+                if (operacao == "*") {
+                    total = num1 * num2;
+                }
+                if (operacao == "/") {
+                    total = num1 / num2;
+                }
+                alert(total);
+            }
+
+            
         </script>
     </body>
 </html>
